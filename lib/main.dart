@@ -67,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 margin: const EdgeInsets.all(5),
                 child: ListTile(
                   title: Text(data.title),
-                  subtitle: Text('วันที่บันทึก'),
+                  subtitle: Text('วันที่บันทึก ${data.date}'),
                   leading: CircleAvatar(
                     child: FittedBox(child: Text('${data.amount}')),
                   ),
